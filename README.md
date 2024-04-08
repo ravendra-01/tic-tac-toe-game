@@ -1,24 +1,42 @@
-# README
+## About
+    This is a Tic-Tac-Toe game application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Prerequisites
 
-Things you may want to cover:
+- ruby 3.2.2
+- rails 7.0.8
+- Node 18+, and Yarn 1.x
 
-* Ruby version
+#### Install
 
-* System dependencies
+##### 1. Check out the repository
 
-* Configuration
+```bash
+git clone https://github.com/ravendra-01/tic-tac-toe-game.git
+```
 
-* Database creation
+##### 2. Create and setup the database
 
-* Database initialization
+Run the following commands to install gems.
 
-* How to run the test suite
+```ruby
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+##### 3. Create and setup the database
 
-* Deployment instructions
+Run the following commands to create and setup the database.
 
-* ...
+```ruby
+rails db:create db:migrate db:seed
+```
+
+##### 4. Start the Rails server
+
+You can start the rails server using the command given below.
+
+```ruby
+rails s
+`````
+
+Now you can visit the site with the URL http://localhost:3000
